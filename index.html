@@ -10,107 +10,118 @@
 
 <body>
     <header>
-        <div class="menu" style="display: none">
-            <ul class="menu">
-                <li class="menu__list"><a href="#" class="menu_link">Пункт 1</a></li>
-                <li class="menu__list"><a href="#" class="menu_link">Пункт 2</a></li>
-                <li class="menu__list"><a href="#" class="menu_link">Пункт 2</a></li>
-            </ul>
-        </div>
-        <div class="burger">
-            <a class="burger__link" href="#">
-                <img src="./img/burger.svg" alt="menu">
-            </a>
-        </div>
-        <div class="phone">
-            <a class="phone__link" href="#!">
-                <img src="./img/phone.svg" alt="phone">
-                <span class="phone__text">8 999 000 00 00</span>
-            </a>
-        </div>
-        <div class="email">
-            <a class="email__link" href="#!">
-                <img src="./img/envelope.svg" alt="email">
-                <span class="email__text">pochta@gmail.com</span>
-            </a>
-        </div>
-    </header>
-    <section class="about">
-        <div class="about__title">
-            <h1>Ахмедова Мадина Веб-дизайнер</h1>
-            <img src="./img/madina.png" alt="">
-        </div>
-        <div class="about__description">
-            <p>Навыки:<br />
-                Визуальный дизайн,<br />
-                Пользовательское исследование,<br />
-                Прототипирование. </p>
-            <p>Софт:<br />
-                Adobe Photoshop, Adobe Illustrator,<br />
-                Adobe After Effects, Figma</p>
-        </div>
-    </section>
-    <section class="advantages">
-        <h2>Преимущества</h2>
-        <div class="advantages">
-            <figure class="advantages__list">
-                <img src="./img/eye.svg" alt="" />
-                <figcaption>Индивидуальный подход</figcaption>
-            </figure>
-            <figure class="advantages__list">
-                <img src="./img/time.svg" alt="" />
-                <figcaption>Соблюдение сроков</figcaption>
-            </figure>
-            <figure class="advantages__list">
-                <img src="./img/hat.svg" alt="" />
-                <figcaption>Образование</figcaption>
-            </figure>
-            <figure class="advantages__list">
-                <img src="./img/briliant.svg" alt="" />
-                <figcaption>Актуальность</figcaption>
-            </figure>
-            <figure class="advantages__list">
-                <img src="./img/label.svg" alt="" />
-                <figcaption>Фиксированные цены</figcaption>
-            </figure>
-        </div>
-    </section>
-    <div class="works">
-        <h2>Мои работы</h2>
-        <img src="./img/work1.png" alt="Работа 1">
-    </div>
-    <footer>
-        <h2>Контакты</h2>
-        <div class="contacts">
-            <div class="email">
-                <a class="email__link" href="#!">
+        <div class="container container__header">
+            <div class="burger">
+                <a class="burger__link" href="#">
+                    <img src="./img/burger.svg" alt="menu">
+                </a>
+            </div>
+            <div class="header__links">
+                <a class="header__link phone" href="#!">
+                    <img src="./img/phone.svg" alt="phone">
+                    <span class="phone__text">8 999 000 00 00</span>
+                </a>
+                <a class="header__link email" href="mailto:madina-88@list.ru">
                     <img src="./img/envelope.svg" alt="email">
                     <span class="email__text">pochta@gmail.com</span>
                 </a>
             </div>
-            <div class="phone">
-                <a class="phone__link" href="#!">
-                    <img src="./img/phone.svg" alt="phone">
-                    <span class="phone__text">8 999 000 00 00</span>
-                </a>
+        </div>
+    </header>
+    <section class="about">
+        <div class="container">
+            <div class="about__title">
+                <h1>Ахмедова Мадина Веб-дизайнер</h1>
+                <img src="./img/madina.png" alt="">
+            </div>
+            <div class="about__description">
+                <p>Навыки:<br />
+                    Визуальный дизайн,<br />
+                    Пользовательское исследование,<br />
+                    Прототипирование. </p>
+                <p>Софт:<br />
+                    Adobe Photoshop, Adobe Illustrator,<br />
+                    Adobe After Effects, Figma</p>
             </div>
         </div>
-        <div class="icons">
-            <a href="#!">
-                <img src="./img/behance.svg" alt="behance">
-            </a>
-            <a href="#!">
-                <img src="./img/facebook.svg" alt="facebook">
-            </a>
-            <a href="#!">
-                <img src="./img/instagram.svg" alt="instagram">
-            </a>
-            <a href="#!">
-                <img src="./img/telegram.svg" alt="telegram">
-            </a>
-            <a href="#!">
-                <img src="./img/whatsapp.svg" alt="whatsapp">
-            </a>
+    </section>
+    <section class="advantages">
+        <div class="container">
+            <h2>Преимущества</h2>
+            <div class="advantages__list">
+                <figure class="advantages__item">
+                    <div class="advantages__item__img">
+                        <img src="./img/eye.svg" alt="" />
+                    </div>
+                    <figcaption>Индивидуальный подход</figcaption>
+                </figure>
+                <figure class="advantages__item">
+                    <div class="advantages__item__img">
+                        <img src="./img/time.svg" alt="" />
+                    </div>
+                    <figcaption>Соблюдение сроков</figcaption>
+                </figure>
+                <figure class="advantages__item">
+                    <div class="advantages__item__img">
+                        <img src="./img/hat.svg" alt="" />
+                    </div>
+                    <figcaption>Образование</figcaption>
+                </figure>
+                <figure class="advantages__item">
+                    <div class="advantages__item__img">
+                        <img src="./img/briliant.svg" alt="" />
+                    </div>
+                    <figcaption>Актуальность</figcaption>
+                </figure>
+                <figure class="advantages__item">
+                    <div class="advantages__item__img">
+                        <img src="./img/label.svg" alt="" />
+                    </div>
+                    <figcaption>Фиксированные цены</figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+    <div class="works">
+        <div class="container">
+            <h2>Мои работы</h2>
+            <img src="./img/work1.png" alt="Работа 1">
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <h2>Контакты</h2>
+            <div class="contacts">
+                <div class="email">
+                    <a class="email__link" href="mailto:madina-88@list.ru">
+                        <img src="./img/envelope.svg" alt="email">
+                        <span class="email__text">pochta@gmail.com</span>
+                    </a>
+                </div>
+                <div class="phone">
+                    <a class="phone__link" href="#!">
+                        <img src="./img/phone.svg" alt="phone">
+                        <span class="phone__text">8 999 000 00 00</span>
+                    </a>
+                </div>
+            </div>
+            <div class="icons">
+                <a href="#!">
+                    <img src="./img/behance.svg" alt="behance">
+                </a>
+                <a href="#!">
+                    <img src="./img/facebook.svg" alt="facebook">
+                </a>
+                <a href="#!">
+                    <img src="./img/instagram.svg" alt="instagram">
+                </a>
+                <a href="#!">
+                    <img src="./img/telegram.svg" alt="telegram">
+                </a>
+                <a href="#!">
+                    <img src="./img/whatsapp.svg" alt="whatsapp">
+                </a>
+            </div>
         </div>
     </footer>
 </body>

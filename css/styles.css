@@ -8,31 +8,50 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+header {
+    padding: 38px 0;
+}
 
-.menu {}
+.container__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-.phone__text {
+.container__header .burger {
+    flex-grow: 8;
+}
+
+.container__header .header__links {
+    flex-grow: 3;
+}
+
+.header__links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.header__link {
+    display: block;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header__link span {
     color: #000000;
     font-size: 24px;
     font-weight: 400;
 }
 
-.phone__link {
-    text-decoration: none;
+.header__link img {
+    margin-right: 10px;
 }
 
-.email__link {
-    text-decoration: none;
-}
-
-.email__text {
-    color: #000000;
-    font-size: 24px;
-    font-weight: 400;
-}
-
-.about__title {
+.about {
     background-color: #0d267b;
+    margin-top: 78px;
 }
 
 h1 {
@@ -61,4 +80,32 @@ h2 {
     color: #000000;
     font-size: 48px;
     font-weight: 400;
+}
+
+.about {
+    min-height: 367px;
+}
+
+.advantages__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.about__description {
+    background-color: #ffffff;
+}
+
+.advantages__item__img {
+    display: block;
+    margin: 0 auto;
+    height: 100px;
+    display: flex;
+    justify-content: center;
 }
