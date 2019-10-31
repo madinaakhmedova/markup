@@ -24,8 +24,13 @@ h2 {
     font-weight: 400;
 }
 
-section {
-    margin-top:80px
+section, footer {
+    margin-top:90px
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
 }
 
 /* HEADER */
@@ -125,15 +130,31 @@ section.about {
     align-items: flex-start;
 }
 
-.container {
-    width: 1140px;
-    margin: 0 auto;
-}
-
 .advantages__item__img {
     display: block;
     margin: 0 auto;
     height: 100px;
     display: flex;
     justify-content: center;
+}
+
+/* WORKS */
+.works {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.works__list {
+    width: 850px;
+    overflow: hidden;
+}
+
+.works__item {
+    width:100%;
+}
+
+.works__block {
+    display: flex;
+    align-items: center;
 }
