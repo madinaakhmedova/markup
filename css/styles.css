@@ -18,6 +18,12 @@ h1 {
     font-weight: 400;
 }
 
+h2 {
+    color: #000000;
+    font-size: 36px;
+    font-weight: 400;
+}
+
 /* HEADER */
 .container__header {
     display: flex;
@@ -73,8 +79,16 @@ h1 {
     flex-grow: 1;
 }
 
-.about__title img {
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+.about__title {
+    display: flex;
+    justify-content: space-around
+}
+
+.about__title__item {
+    align-items: center;
+    display: flex;
+    line-height: 34px;
+    text-align: center;
 }
 
 .about__description {
@@ -92,12 +106,7 @@ h1 {
     margin-bottom: 40px;
 }
 
-h2 {
-    color: #000000;
-    font-size: 36px;
-    font-weight: 400;
-}
-
+/* ADVANTAGES */
 .advantages h2 {
     color: #000000;
     font-size: 48px;
